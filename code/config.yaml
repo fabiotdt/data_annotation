@@ -1,0 +1,11 @@
+# Parameters to run the semi autnomous annotation tool
+# All the parameters are set to default values\
+
+base_root: ..\dataset # root directory whete the data are stored
+train_perc: 0.34 # percentage of the data used for training
+test_perc: 0.33 # percentage of the data used for testing
+val_perc: 0.33 # percentage of the data used for validation
+
+yolo_weight: ..\models_weights\berry_YOLOv8_nano.pt # path to the weights of the yolo model
+
+class_file: ..\dataset # path to the file containing the classes
